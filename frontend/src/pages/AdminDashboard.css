@@ -1,0 +1,264 @@
+/* .admin-dashboard {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.booking-table th,
+.booking-table td {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.booking-table th {
+  background: #f3f4f6;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status.pending {
+  background: #fffbea;
+  color: #b45309;
+}
+
+.status.approved {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.status.rejected {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+button.approve {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+button.reject {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.review-cell {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.review-cell p {
+  margin: 4px 0;
+}
+
+.no-review {
+  color: #9ca3af;
+  font-style: italic;
+} */
+
+
+
+
+
+
+
+
+
+.admin-dashboard {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.booking-table th,
+.booking-table td {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.booking-table th {
+  background: #f3f4f6;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status.pending {
+  background: #fffbea;
+  color: #b45309;
+}
+
+.status.approved {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.status.rejected {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+button.approve {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+button.reject {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.review-cell {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.review-cell p {
+  margin: 4px 0;
+}
+
+.no-review {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* 🔐 Admin Login Page */
+.admin-login {
+  max-width: 400px;
+  margin: 120px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, sans-serif;
+}
+
+.admin-login h1 {
+  margin-bottom: 10px;
+}
+
+.pin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pin-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 4px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.pin-form input:focus {
+  border-color: #2563eb;
+}
+
+.pin-form button {
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.pin-form button:hover {
+  background: #1e40af;
+}
